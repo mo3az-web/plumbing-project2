@@ -1,0 +1,57 @@
+/* ServicesPage.css */
+.services-page {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background-color: #f9f9f9;
+    color: #333;
+  }
+  
+  .services-page h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .services-page p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #555;
+  }
+  
+  .services-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .service-card {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .service-card:hover {
+    transform: translateY(-5px);
+  }
+  
+  .service-card h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+    color: #222;
+  }
+  
+  .service-card p {
+    font-size: 1em;
+    color: #555;
+  }
+  .footersr {
+    background-color: black; /* خلفية رمادية داكنة */
+    color: #fff; /* نص أبيض */
+    padding: 10px;
+    border-radius: 10px;
+  }
