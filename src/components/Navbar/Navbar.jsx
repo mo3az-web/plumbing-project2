@@ -7,10 +7,10 @@ const Navbar = () => {
     <div className='navbar'>
         <img src={logo_light} alt="" className='logo'/> مؤسسة عتيوي الرشيد 
         <ul>
-            <a href="/plumbing-project/">الرئيسيه</a>
+         <a href="/plumbing-project/home">الرئيسيه</a>
             <a href="/plumbing-project/services">خدماتنا</a>
             <a href='/plumbing-project/contact'>اتصل بنا</a>
-            <a href='/plumbing-project/about'>من نحن</a>           
+            <a href='/plumbing-project/about'>من نحن</a>         
         </ul>
     </div>
     
